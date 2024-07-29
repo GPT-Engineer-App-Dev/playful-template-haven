@@ -19,10 +19,6 @@ const Index = () => {
           <Button onClick={() => setCount(count - 1)} className="bg-red-500 hover:bg-red-600 text-white">Decrement</Button>
         </div>
       </main>
-
-      <footer className="bg-secondary text-secondary-foreground p-4 text-center">
-        <p>&copy; 2024 My App. All rights reserved.</p>
-      </footer>
     </div>
   );
 };
