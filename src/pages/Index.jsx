@@ -16,7 +16,7 @@ const Index = () => {
         <div className="mb-4">
           <p>Count: {count}</p>
           <Button onClick={() => setCount(count + 1)} className="mr-2 bg-green-500 hover:bg-green-600">Increment</Button>
-          <Button onClick={() => setCount(count - 1)} variant="outline">Decrement</Button>
+          <Button onClick={() => setCount(count - 1)} className="bg-red-500 hover:bg-red-600 text-white">Decrement</Button>
         </div>
       </main>
 
